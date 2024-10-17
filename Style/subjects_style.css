@@ -1,0 +1,81 @@
+
+/* Update */
+
+#Update{
+    color: red;
+}
+
+/* Nadpis stránky */
+
+#nadpis{
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Všechny zápisky */
+
+.All_Zápisky{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    margin: 25px;
+}
+.All_Zápisky h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+.All_Zápisky a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+.All_Zápisky a:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+/* Všeobécné Zápisky */
+
+.Zápisky{
+    border: 3px solid black;
+    border-radius: 0%;
+    width: 300px;
+    height: 300px;
+}
+.Zápisky li{
+    display: flex;
+}
+
+#Česky_Nadpis{
+    text-align: center;
+}
+
+/* První skupina Zápisky */
+
+
+.I_Skupina{
+    border: 3px solid black;
+    border-radius: 0%;
+    width: 300px;
+    height: 300px;
+}
+.I_Skupina li{
+    display: flex;
+    padding: 4px;
+}
+
+/* druhá skupina Zápisky */
+
+
+.II_Skupina{
+    border: 3px solid black;
+    border-radius: 0%;
+    width: 300px;
+    height: 300px;
+}
+.II_Skupina li{
+    display: flex;
+    padding: 4px;
+}
