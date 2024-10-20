@@ -3,7 +3,7 @@
 /* Nadpis stránky */
 
 #nadpis{
-    font-size: 2.2em;
+    font-size: 2.3em;
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -33,7 +33,7 @@
 .popis{
     border: 2px solid black;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 /* Aktualizace */
@@ -42,7 +42,7 @@
 .Aktualizace{
     border: 2px solid black;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 
@@ -52,7 +52,7 @@
 .Kontakt{
     border: 2px solid black;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 /* Update */
@@ -60,5 +60,5 @@
 .Update{
     border: 2px solid black;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
