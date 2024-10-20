@@ -1,5 +1,39 @@
 
-#New{
-    font-size: 1.2em;
-    color: tomato;
+/* Nadpis stránky */
+
+#nadpis{
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Obsah Stránky */
+
+.Obsah{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Bloky */
+
+.New_Sub{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.New_Test{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255, 218, 212);
+}
+
+/* Nadpis bloků */
+
+.Nadpis_Obsah{
+    text-align: center;
+    border: 1px solid black;
 }
