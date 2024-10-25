@@ -8,6 +8,7 @@
 /* Nadpis stránky */
 
 #nadpis{
+    color: rgb(0, 255, 0);
     font-size: 2.3em;
     text-align: center;
     margin-top: 2%;
@@ -20,7 +21,7 @@
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 25px;
 }
 .All_Zápisky h3{
@@ -29,51 +30,65 @@
 }
 .All_Zápisky a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 255, 0);
     width: 100%;
 }
 .All_Zápisky a:hover{
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(0, 255, 0, 0.546);
+    color: white;
+}
+.All_Zápisky h3{
+    border: 3px solid rgb(0, 255, 0);
 }
 
 /* Všeobécné Zápisky */
 
 .Zápisky{
-    border: 3px solid black;
-    width: 300px;
-    height: 300px;
+    border: 3px solid green;
+    width: 400px;
+    height: 400px;
 }
 .Zápisky li{
     display: flex;
 }
+.Zápisky{
+    background-color: black;
+}
 
 #Česky_Nadpis{
     text-align: center;
+    margin-top: 10px;
 }
 
 /* První skupina Zápisky */
 
 
 .I_Skupina{
-    border: 3px solid black;
-    width: 300px;
-    height: 300px;
+    border: 3px solid green;
+    width: 400px;
+    height: 400px;
 }
 .I_Skupina li{
     display: flex;
     padding: 4px;
+}
+.I_Skupina{
+    background-color: black;
 }
 
 /* druhá skupina Zápisky */
 
 
 .II_Skupina{
-    border: 3px solid black;
+    border: 3px solid green;
     border-radius: 0%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 .II_Skupina li{
     display: flex;
     padding: 4px;
+}
+.II_Skupina{
+    background-color: black;
 }

@@ -3,6 +3,7 @@
 /* Nadpis stránky */
 
 #nadpis{
+    color: rgb(0, 255, 0);
     font-size: 2.3em;
     text-align: center;
     margin-top: 2%;
@@ -23,15 +24,17 @@
 .Info h2{
     text-align: center;
     font-size: 1.2em;
+    color: rgb(0, 255, 0);
 }
 .Info p{
+    color: white;
     padding: 10px;
 }
 
 /* Popis */
 
 .popis{
-    border: 2px solid black;
+    border: 3px solid green;
     width: 100%;
     height: auto;
 }
@@ -40,7 +43,7 @@
 
 
 .Aktualizace{
-    border: 2px solid black;
+    border: 3px solid green;
     width: 100%;
     height: auto;
 }
@@ -50,7 +53,7 @@
 
 
 .Kontakt{
-    border: 2px solid black;
+    border: 3px solid green;
     width: 100%;
     height: auto;
 }
@@ -58,7 +61,7 @@
 /* Update */
 
 .Update{
-    border: 2px solid black;
+    border: 3px solid green;
     width: 100%;
     height: auto;
 }
